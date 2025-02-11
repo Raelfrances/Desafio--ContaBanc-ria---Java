@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class ContaTerminal{
   public static void main(String[] args){
-    Scannner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
     System.out.println("Informe o número da conta:  ");
-    int numeroConta = nextInt();
+    int numeroConta = scanner.nextInt();
 
     System.out.println("Informe o número da Agência:  ");
-    String numeroAgencia = next();
+    String numeroAgencia = scanner.next(); scanner.nextLine();
 
     System.out.println("Informe o nome do cliente:  ");
-    String nomeCliente = nextLine();
+    String nomeCliente = scanner.nextLine();
 
     System.out.println("Informe o saldo inicial:  ");
-    double saldoInicial = nextDouble();
+    double saldoInicial = scanner.nextDouble();
 
     String mensagem = " Olá" + nomeCliente + ",obrigado criar uma conta em nosso banco, " + "Sua Agência é: " + numeroAgencia + ",conta: " + numeroConta +" e seu saldo inicial é de: " + saldoInicial + ", e já está disponivel para saque."; 
 
